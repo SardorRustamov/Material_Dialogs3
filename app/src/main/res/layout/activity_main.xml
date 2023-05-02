@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <Button
+        android:id="@+id/network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Social Networks"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <Button
+        android:id="@+id/alert_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Data and Time"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <Button
+        android:id="@+id/google_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google WIFI"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <Button
+        android:id="@+id/custom_argb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom ARGB"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+</LinearLayout>
