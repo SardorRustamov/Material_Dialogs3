@@ -1,4 +1,4 @@
-package com.azamovhud.dialoggit.classes
+package uz.sr.mylibrary.classes
 
 import android.app.Dialog
 import android.os.Bundle
@@ -6,10 +6,10 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatDialogFragment
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.azamovhud.dialoggit.adapters.ColorAdapter
-import com.azamovhud.dialoggit.R
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.tabs.TabLayout
+import uz.sr.mylibrary.R
+import uz.sr.mylibrary.adapters.ColorAdapter
 
 class ColorDialog() : AppCompatDialogFragment() {
     var listener: OnColorSelectListener? = null

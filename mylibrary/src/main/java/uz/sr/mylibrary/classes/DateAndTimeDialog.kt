@@ -1,4 +1,4 @@
-package com.azamovhud.dialoggit.classes
+package uz.sr.mylibrary.classes
 
 import android.app.Dialog
 import android.os.Bundle
@@ -9,8 +9,8 @@ import android.widget.TimePicker
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatDialogFragment
 import androidx.core.content.ContextCompat
-import com.azamovhud.dialoggit.R
 import com.google.android.material.tabs.TabLayout
+import uz.sr.mylibrary.R
 
 class DateAndTimeDialog : AppCompatDialogFragment() {
 

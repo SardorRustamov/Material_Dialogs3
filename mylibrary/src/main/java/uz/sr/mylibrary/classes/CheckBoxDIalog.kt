@@ -1,4 +1,4 @@
-package com.azamovhud.dialoggit.classes
+package uz.sr.mylibrary.classes
 
 import android.app.Dialog
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatDialogFragment
 import androidx.core.view.forEach
-import com.azamovhud.dialoggit.R
+import uz.sr.mylibrary.R
 
 class CheckBoxDialog(val list: List<String>, val title: String) : AppCompatDialogFragment() {
 

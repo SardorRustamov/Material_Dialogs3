@@ -1,4 +1,4 @@
-package com.azamovhud.dialoggit.classes
+package uz.sr.mylibrary.classes
 
 import android.app.Dialog
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.text.method.PasswordTransformationMethod
 import android.widget.CheckBox
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatDialogFragment
-import com.azamovhud.dialoggit.R
 import com.google.android.material.bottomsheet.BottomSheetDialog
+import uz.sr.mylibrary.R
 
 class WifiDialog : AppCompatDialogFragment() {
 

@@ -1,15 +1,12 @@
-package com.azamovhud.dialoggit.classes
+package uz.sr.mylibrary.classes
 
 import android.app.Dialog
 import android.content.Context
-import android.content.DialogInterface
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
-import androidx.appcompat.app.AppCompatDialog
 import androidx.appcompat.app.AppCompatDialogFragment
-import com.azamovhud.dialoggit.R
-import kotlinx.android.synthetic.main.basic_dialog.*
+import uz.sr.mylibrary.R
 
 class BasicDialog(context: Context) : AppCompatDialogFragment() {
     var basicDialogListeners: BasicDialogListeners? = null
@@ -55,7 +52,7 @@ class BasicDialog(context: Context) : AppCompatDialogFragment() {
         this.okBtnText = cancelBtnTxt
 
     }
-    fun setOnButtonClickListener(listener:BasicDialogListeners){
+    fun setOnButtonClickListener(listener: BasicDialogListeners){
         this.basicDialogListeners = listener
     }
 
