@@ -12,6 +12,7 @@ import uz.sr.mylibrary.R
 class ColorAdapter(val list: List<Int>, val listener: OnItemClickListener) :
     RecyclerView.Adapter<ColorAdapter.ColorIV>() {
 
+
     var item: CardView? = null
     var lastPosition = 0
     private val TAG = "ColorAdapter"
