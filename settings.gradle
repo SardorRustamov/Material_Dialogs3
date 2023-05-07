@@ -16,5 +16,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Material Dialogs"
 include ':app'
-include ':app:mylibrary'
 include ':mylibrary'
